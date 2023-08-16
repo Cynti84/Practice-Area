@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Joy's assignment grids
+        </title>
+        
+        <style>
+            body {
+                background-color: rgba(12, 15, 12, 0.3);
+            }
+            
+            .grid-container {
+                display: grid;
+                gap: 1px;
+                background-color: white;
+                padding: 0px;
+                width : 80%;
+                margin: auto;
+                
+            }
+            .grid-item {
+                padding: 15px;
+                font-size: 20px;
+                background-color: rgb(67, 67, 67);
+                color: white;
+
+            }
+            .item1 {
+                grid-column: 1 / span 3;
+                grid-row: 1;
+            }
+            .item2 {
+                grid-column: 1 / span 2;
+                grid-row: 2 / span 2;
+            }
+            .item5 {
+                grid-column: 1 / span 3;
+            }
+            h1 {
+                text-align: center;
+                color: grey;
+                
+            }
+            a {
+                text-decoration: line-through;
+                color: red;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <h1>Spanish Language</h1>
+            </div>
+            <div class="grid-item item2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab eos sint ad sapiente est delectus voluptatum voluptate ipsum harum aliquid, minus animi laborum neque in deserunt! Saepe, quibusdam sequi!</p>
+                <p>Iste adipisci quis dolore tenetur a odit quam vero et beatae doloribus? Obcaecati neque recusandae doloribus odio eaque commodi soluta rem aut?</p>
+                <p>Quisquam alias atque iste dolorem placeat! Iusto omnis odit dolorum reprehenderit molestiae aut! Ducimus natus facilis iste illum labore ipsum voluptates tenetur.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod est iusto, id quia excepturi error sunt consectetur quasi vero ab ad dolorum nam accusamus tempora praesentium reprehenderit dolor deleniti.</p>
+                <p>Commodi aspernatur consequuntur error omnis eveniet nisi suscipit odit, maxime eum odio libero dolorum asperiores ipsam sint adipisci in nulla aut molestias.</p>
+            </div>
+            <div class="grid-item item3">
+                <p>This assignment is from Uri Uriik!</p>
+                <p>She speaks her language <span>&#128512</span></p>
+            </div>
+            <div class="grid-item item 4">
+                <p>This is another item 4. Honestly I don't have much to say <span>&#128561</span></p>
+            </div>
+            <div class="grid-item item5">
+                <h2>In conclusion, <a href="#" type="_blank">visit the site</a> here!</h2>
+            </div>
+
+        </div>
+
+    </body>
+</html>

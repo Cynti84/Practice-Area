@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice area</title>
+        <style>
+            .grid-container  {
+                display: grid;
+                gap: 1px;
+                grid-template-columns: auto auto auto;
+                padding: 1px;
+                background-color: black;                
+            }
+
+            .grid-container div {
+                padding: 20px;
+                font-size: 20px;
+                background-color: white;      
+            }
+            .item1 {
+                grid-column: 1 / 3;
+                grid-row: 1;
+            }
+
+            .item9 {
+                grid-column: 1 / span 3;
+                grid-row: 4;
+                text-align: center;
+            }
+            h1 {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Grids and columns.</h2>
+        <div class="grid-container">
+          <div class="item1"><h1>This demonstration!</h1></div>
+          <div class="item2">This another demonstration...</div>
+          <div class="item3">This third demonstration.</div>
+          <div class="item4">Number 4 is before number 5.</div>
+          <div class="item5">Number 5 is after number 3.</div>
+          <div class="item6">And finally number 7.</div>
+          <div class="item7">This is number 7</div>
+          <div class="item8">This is number 8</div>
+          <div class="item9"><h3>This is number 9</h3></div>
+        </div>  
+    </body>
+</html>
